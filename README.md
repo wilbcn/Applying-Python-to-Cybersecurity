@@ -1,2 +1,4 @@
 # Applying-Python-to-Cybersecurity
-# Currently undertaking various Python courses. Upon completion - edit this path.
+
+# password_strength_check.py
+# This project was one of my first projects using Python, related to cybersecuriy. Here I have wrote a simple function that takes user input and provides feedback on the strength of the password.
