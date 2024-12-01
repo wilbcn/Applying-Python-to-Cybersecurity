@@ -97,6 +97,7 @@ def check_user_passwords():
         print(index, user)
         time.sleep(2)
     time.sleep(2)
+    
 def security_sub_menu():
     print("Here you can check for security concerns for IAM Users.")
     time.sleep(2)
