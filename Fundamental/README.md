@@ -1,12 +1,14 @@
 # Applying-Python-to-Cybersecurity
 
-The projects in this directory were created to gain hands-on experience at a fundamental level in Python. Applying this knowledge to real-world scenarios, and exploring cybersecurity concepts including those related to the cloud. Furthermore, to document my personal growth and learning journey.
+The projects in this directory were created to gain hands-on experience with Python, applying it to real-world scenarios in the field of cybersecurity. These projects explore various cybersecurity concepts, including those related to cloud environments, while documenting my personal growth and learning journey.
 
-1. password_strength_check.py -
-This project was one of my first projects using Python for cybersecurity. Here I wrote a simple function that takes user input and provides feedback on the strength of the password.
+I have a keen interest in AWS and have undertaken projects focusing on AWS services. This work aims to deepen my understanding of cloud computing and security, particularly in securing AWS environments. These projects include automating security checks, analyzing IAM policies, ensuring S3 compliance, and addressing EC2 vulnerabilities.
 
-2. python-passgen.py
-This project was a follow up project to my password strength checker. Here I wrote a more complex script that takes user input, to return a password based on the users preferred parameters, much like a real password generator tool where you can customise the length and what will be included.
+Through these efforts, I am developing a strong foundation in:
 
-3. IAM_Security.py
-This project demonstrates the use of the AWS SDK (boto3) in Python to analyse and identify potential security concerns in AWS IAM user accounts. The primary goal was to gain hands-on experience with AWS SDK and Python data processing while implementing practical security checks. The program identifies IAM users with misconfigurations, such as the lack of MFA or old and unused passwords. This project uses structured data analysis techniques to ensure best practices for AWS IAM user management and security. For security purposes, AWS credentials were configured securely using the AWS CLI, with one of my IAM user's Access Key ID and Secret Access Key. I aim to expand on this project into programme with a much wider scope, including features to notify users of these security concerns etc.
+- Python Programming: Writing efficient and reusable code for automation and security analysis.
+- AWS Services: Gaining practical knowledge of IAM, S3, EC2, and other AWS components.
+- Cybersecurity Fundamentals: Identifying and mitigating security risks, with a focus on cloud security.
+
+This repository serves as a reflection of my ongoing commitment to combining programming expertise with cybersecurity practices to tackle modern challenges in securing cloud environments.
+
