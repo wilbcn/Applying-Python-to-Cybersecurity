@@ -30,7 +30,7 @@ Boto3 documentation for API References - https://boto3.amazonaws.com/v1/document
 
 ## Example screenshots & Using the programme
 
-![Using the Main Menu](<img width="869" alt="image" src="https://github.com/user-attachments/assets/6c26488b-c56e-49f5-9ea7-9e2ac7a68ba1" />)
+<img width="869" alt="image" src="https://github.com/user-attachments/assets/6c26488b-c56e-49f5-9ea7-9e2ac7a68ba1" />
 
 - User-friendly interface with options to explore each aws service we have programmed for checks. All of the menus throughout the programme have exception checks to keep the user on track and avoiding software crashes.
 
@@ -43,10 +43,16 @@ Boto3 documentation for API References - https://boto3.amazonaws.com/v1/document
 ### Example Outputs
 
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/9fd275fd-4630-442d-9d9b-d4abb94b8660" />
+
+- Displaying users without MFA enabled.
+
 <img width="561" alt="image" src="https://github.com/user-attachments/assets/665f0acc-e41e-4ab8-9e4e-a3bd59518c72" />
+
+- Finding users who have not updated their password in over two months. This is a test account I use to flag security concerns.
+
 <img width="1097" alt="image" src="https://github.com/user-attachments/assets/e8e2c741-0482-4148-aea3-50db25190a61" />
 
-- Here you can see that some of my test IAM user accounts have been flagged or old passwords, access keys, and a lack of MFA. Then we prompt the user to investigate!
+- Some of my test accounts have not had their access keys rotated in over two months. The user is then prompted to investigate!
 
 ### S3 Class
 
