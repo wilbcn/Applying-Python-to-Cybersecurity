@@ -7,6 +7,7 @@ Boto3 documentation for API References - https://boto3.amazonaws.com/v1/document
 
 ## Project Structure
 /aws-secutity-tool/       # Contains the README.md file for the Project Documentation and Overview.
+
 /aws-security-tool/src    # This folder contains the code on each class, as well as the main.py file for running the programme.
 
 ### Key Features
