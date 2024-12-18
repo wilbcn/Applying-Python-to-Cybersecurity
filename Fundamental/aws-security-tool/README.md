@@ -1,6 +1,6 @@
 # Overview of Project  
 
-This project showcases an AWS security Tool in Python, allowing the user to check for vulnerabilities in a variety of AWS services including IAM, EC2, and S3. This project was aimed at gaining hands-on experience working with AWS APIs using boto3, and to improve my understanding of automation in the cloud with a focus on security. I also documented this for my own personal development and growth as I continue to research and experiment with Python, especially with object-oriented programming, and using a variety of modules and libraries like boto3 and pandas. This was also a great opportunity to familiarise myself with the vast amount of methods on offer with boto3. During this project, I referred to the AWS Boto3 documentation to discover and use the listed methods, reviewing the returned syntax to better understand how to access and work with this data. 
+This project showcases an AWS security Tool in Python, allowing the user to check for vulnerabilities in a variety of AWS services including IAM, EC2, and S3. This project was aimed at gaining hands-on experience in AWS SDK and leveraging AWS APIs using boto3. I also documented this for my own personal development and growth as I continue to research and experiment with Python, especially with object-oriented programming, and using a variety of modules and libraries like boto3 and pandas. This was also a great opportunity to familiarise myself with the vast amount of methods on offer with boto3. During this project, I referred to the AWS Boto3 documentation to discover and use the listed methods, reviewing the returned syntax to better understand how to access and work with this data. This project also improved my understanding of automation in the cloud with a focus on cybersecurity.
 
 ## Acknowledgments
 Boto3 documentation for API References - https://boto3.amazonaws.com/v1/documentation/api/1.35.8/index.html
@@ -32,6 +32,8 @@ This folder contains the code on each class, as well as the main.py file for run
 - Check for EC2 instances without key pairs.
 
 ## Example screenshots & Using the programme
+
+- Before carrying out these tests, the AWS CLI was configured, in which I input my AWS IAM user Access ID and Secret Key. 
 
 <img width="869" alt="image" src="https://github.com/user-attachments/assets/6c26488b-c56e-49f5-9ea7-9e2ac7a68ba1" />
 
