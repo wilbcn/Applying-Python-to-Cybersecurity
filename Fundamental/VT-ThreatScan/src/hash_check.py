@@ -6,6 +6,7 @@ import os
 from dotenv import load_dotenv
 import hashlib
 from utils import CSV
+import time
 
 def validate_hash():
     """
@@ -65,11 +66,9 @@ def find_local_files():
     # Filter to extract only files and not directories
     files_to_check = [f for f in local_files_in_directory if os.path.isfile(f)]
 
-    # Skip files that are part of the programme itself
-    ignore_files = [".py", ".env", "completed_searches.csv"]
-
+    # Skip files related to programme 
     for file in files_to_check:
-        if file in ignore_files:
+        if ".py" in file or ".env" in file:
             continue
         list_of_files.append(file)
 
@@ -167,6 +166,7 @@ def get_hash_report(hash_values, manual_or_file):
         return False
 
     response_data = json.loads(response.text)
+    time.sleep(6)  # Allows enough time for the API call.
     hash_info = response_data['data']['attributes']
 
     if not hash_info:
