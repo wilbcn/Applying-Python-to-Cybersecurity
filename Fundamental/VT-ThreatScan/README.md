@@ -52,6 +52,29 @@ This folder contains the code for running the programme.
 
 ## Checking a local file
 
+<img width="408" alt="image" src="https://github.com/user-attachments/assets/be11efde-10d9-435f-9cd8-c8b82229d151" />
+
+- Typing 2 now in the Hash Sub Menu, we can check a local file, generate a hash for it, and get a file report on that hash. For testing purposes we will be looking up known test file 'eicar.com.txt'
+
+<img width="663" alt="image" src="https://github.com/user-attachments/assets/e096d0e4-20b8-4fb9-87fb-d0001b69211b" />
+
+- Results show that this is only a test file, however we still have plenty of useful information. This is also logged to our CSV file.
+
+## Checking a URL
+
+<img width="681" alt="image" src="https://github.com/user-attachments/assets/dd7d8f06-e353-46a1-892d-756937a38407" />
+
+- Once again, we are testing our programme using the known testing souce 'Eicar'. I have inserted this test URL via the CLI, and generated a file report on it.
+
+<img width="1621" alt="image" src="https://github.com/user-attachments/assets/d0354105-6290-414e-b6bf-0992e044bca1" />
+
+- We can now see that all 3 entries from our programme showcase have been added to the log. Our URL scan identifies and counts the engines which flagged the URL as harmless, malicious, and so fourth.
+
+## Key takeaways and future development
+
+This project was a great introduction to API calls via VirusTotal, helping me develop my skills in Python in general, as well as getting more comfortable reading documentation such as those listed in the acknowledgements. As I continue with my studies, I hope to create more programmes that introduce cybersecurity concepts, whilst improving my code modularity and functionality. 
+
+An idea for future development would be to be able to automatically inform users if a malicious hash or url had been identified or scanned using the programme. 
 
 
 
