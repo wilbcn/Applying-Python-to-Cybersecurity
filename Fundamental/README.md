@@ -9,6 +9,7 @@ Through these efforts, I am developing a strong foundation in:
 - Python Programming: Writing efficient and reusable code for automation and security analysis.
 - AWS Services: Gaining practical knowledge of IAM, S3, EC2, and other AWS components.
 - Cybersecurity Fundamentals: Identifying and mitigating security risks, with a focus on cloud security.
+- Python programmes, leveraging the skills and knowledge I have learned through SOC analyst training courses.
 
 This repository serves as a reflection of my ongoing commitment to combining programming expertise with cybersecurity practices to tackle modern challenges in securing cloud environments.
 
