@@ -6,10 +6,10 @@ This programme allows the user to make various API calls to VirusTotal, in order
 
 ## Acknowledgements
 
-VT documentation on URL File reports - https://docs.virustotal.com/reference/analysis
-VT documentation on Hash File reports - https://docs.virustotal.com/reference/file-info
-VT documentation, working with objects - https://docs.virustotal.com/reference/objects
-Python docs - Using OS Module - https://docs.python.org/3/library/os.html
+- VT documentation on URL File reports - https://docs.virustotal.com/reference/analysis
+- VT documentation on Hash File reports - https://docs.virustotal.com/reference/file-info
+- VT documentation, working with objects - https://docs.virustotal.com/reference/objects
+- Python docs - Using OS Module - https://docs.python.org/3/library/os.html
 
 ## Project Structure
 /VT-ThreatScan/
