@@ -22,7 +22,6 @@ This project allows me to reinforce what I have learned through my MSc studies, 
 - 📄 url_check.py – URL analysis logic
 - 📄 utils.py – Utility functions & CSV logging
 - 📄 .env – Environment file for storing API key (not included for security reasons)
-- 📄 requirements.txt – Dependencies for running the project
 
 ## Key Features
 - 🔍 Manual Hash Lookup – Enter an MD5, SHA-1, or SHA-256 hash and fetch a VirusTotal report.
