@@ -6,11 +6,14 @@ This project showcases an AWS security Tool in Python, allowing the user to chec
 Boto3 documentation for API References - https://boto3.amazonaws.com/v1/documentation/api/1.35.8/index.html
 
 ## Project Structure
-/aws-secutity-tool/
-Contains the README.md file for the Project Documentation and Overview.
-
-/aws-security-tool/src
-This folder contains the code on each class, as well as the main.py file for running the programme.
+aws-security-tool/ (Root Project Directory)
+📄 README.md – Documentation & project overview
+📂 src/ (Source Code Directory)
+📄 main.py – Entry point for the program
+📄 iam_security.py – IAM security audits
+📄 s3_security.py – S3 security audits
+📄 ec2_security.py – EC2 security audits
+📄 utils.py – Helper functions
 
 ### Key Features
 ### IAM Security
