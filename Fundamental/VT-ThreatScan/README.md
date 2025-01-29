@@ -1,8 +1,10 @@
 # Overview of Project
 
-I am currently undertaking a certificate programme called BlueTeam Level 1, which covers a massive amount of domains within Cybersecurity such as phishing analysis, threat intelligence, SIEM monitoring, and more. Within the phishing analysis segment, I learned how to investigate suspicious emails, particularly with tools such as VirusTotal. I am always looking for new ideas and projects to help develop myself as a programmer, whilst also implementing what I have learned through my MSc, and various certificate programmes.
+VT-ThreatScan is a Python tool that enables users to analyze file hashes (MD5, SHA-1, SHA-256) and URLs using the VirusTotal API. The tool allows for manual hash input, file-based hash scanning, and URL analysis, while maintaining a permanent log for audit purposes.
 
-This programme allows the user to make various API calls to VirusTotal, in order to get a Filereport on a Hash (MD5, SHA-1, or SHA-256), or a URL. This programme introduced me to modules like hashlib, and dotenv, which I used to generate hash files and also securely load in my VT API Key.
+I developed VT-ThreatScan while studying phishing analysis and threat intelligence as part of my BlueTeam Level 1 certification, aiming to apply my knowledge of cybersecurity investigations while also improving my Python skills.
+
+This project allows me to reinforce what I have learned through my MSc studies, certifications, and personal development by integrating real-world cybersecurity analysis techniques into code.
 
 ## Acknowledgements
 
@@ -12,18 +14,22 @@ This programme allows the user to make various API calls to VirusTotal, in order
 - Python docs - Using OS Module - https://docs.python.org/3/library/os.html
 
 ## Project Structure
-/VT-ThreatScan/
-Contains the README.md file for the Project Documentation and Overview.
-
-/VT-ThreatScan/src
-This folder contains the code for running the programme.
+📂 VT-ThreatScan/ (Root Project Directory)
+├── 📄 README.md – Project documentation & usage guide
+├── 📂 src/ (Source Code Directory)
+│ ├── 📄 main.py – Entry point of the program
+│ ├── 📄 hash_check.py – Hash scanning logic
+│ ├── 📄 url_check.py – URL analysis logic
+│ ├── 📄 utils.py – Utility functions & CSV logging
+├── 📄 .env – Environment file for storing API key (not included for security reasons)
+├── 📄 requirements.txt – Dependencies for running the project
 
 ## Key Features
-- Insert a hash file manually and generate a file report.
-- Generate a hash file from a local file, and generate a file report.
-- Insert a URL manually, and generate a file report.
-- Log searches in a neatly formatted CSV file, creating an audit trail and permanent log.
-- The log information then provides the user with the necessary information that may warrant a deeper investigation.
+🔍 Manual Hash Lookup – Enter an MD5, SHA-1, or SHA-256 hash and fetch a VirusTotal report.
+🖥️ File-Based Hash Analysis – Generate a hash from a local file and analyze it.
+🌐 URL Investigation – Submit a URL and retrieve its VirusTotal scan results.
+📊 Audit Logging – Automatically log all searches in a CSV file for investigation tracking.
+📌 Customizable API Handling – Uses .env file to store API keys securely.
 
 ## Example screenshots and outputs
 ## Main Menu
@@ -71,12 +77,11 @@ This folder contains the code for running the programme.
 - We can now see that all 3 entries from our programme showcase have been added to the log. Our URL scan identifies and counts the engines which flagged the URL as harmless, malicious, and so fourth.
 
 ## Key takeaways and future development
+- Automated Alerts: Notify users if a malicious hash or URL is found.
+- Integration with More Threat Intelligence APIs: Extend beyond VirusTotal to sources like AbuseIPDB or AlienVault OTX.
+- Enhanced User Interface: Add a simple GUI instead of CLI-only interaction.
 
-This project was a great introduction to API calls via VirusTotal, helping me develop my skills in Python in general, as well as getting more comfortable reading documentation such as those listed in the acknowledgements. As I continue with my studies, I hope to create more programmes that introduce cybersecurity concepts, whilst improving my code modularity and functionality. 
-
-An idea for future development would be to be able to automatically inform users if a malicious hash or url had been identified or scanned using the programme. 
-
-
+As I continue my BlueTeam Level 1 certification, I hope to expand on these ideas and further improve the project.
 
 
 
