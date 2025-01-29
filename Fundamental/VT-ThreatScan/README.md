@@ -14,22 +14,22 @@ This project allows me to reinforce what I have learned through my MSc studies, 
 - Python docs - Using OS Module - https://docs.python.org/3/library/os.html
 
 ## Project Structure
-📂 VT-ThreatScan/ (Root Project Directory)
-├── 📄 README.md – Project documentation & usage guide
-├── 📂 src/ (Source Code Directory)
-│ ├── 📄 main.py – Entry point of the program
-│ ├── 📄 hash_check.py – Hash scanning logic
-│ ├── 📄 url_check.py – URL analysis logic
-│ ├── 📄 utils.py – Utility functions & CSV logging
-├── 📄 .env – Environment file for storing API key (not included for security reasons)
-├── 📄 requirements.txt – Dependencies for running the project
+- 📂 VT-ThreatScan/ (Root Project Directory)
+- 📄 README.md – Project documentation & usage guide
+- 📂 src/ (Source Code Directory)
+- 📄 main.py – Entry point of the program
+- 📄 hash_check.py – Hash scanning logic
+- 📄 url_check.py – URL analysis logic
+- 📄 utils.py – Utility functions & CSV logging
+- 📄 .env – Environment file for storing API key (not included for security reasons)
+- 📄 requirements.txt – Dependencies for running the project
 
 ## Key Features
-🔍 Manual Hash Lookup – Enter an MD5, SHA-1, or SHA-256 hash and fetch a VirusTotal report.
-🖥️ File-Based Hash Analysis – Generate a hash from a local file and analyze it.
-🌐 URL Investigation – Submit a URL and retrieve its VirusTotal scan results.
-📊 Audit Logging – Automatically log all searches in a CSV file for investigation tracking.
-📌 Customizable API Handling – Uses .env file to store API keys securely.
+- 🔍 Manual Hash Lookup – Enter an MD5, SHA-1, or SHA-256 hash and fetch a VirusTotal report.
+- 🖥️ File-Based Hash Analysis – Generate a hash from a local file and analyze it.
+- 🌐 URL Investigation – Submit a URL and retrieve its VirusTotal scan results.
+- 📊 Audit Logging – Automatically log all searches in a CSV file for investigation tracking.
+- 📌 Customizable API Handling – Uses .env file to store API keys securely.
 
 ## Example screenshots and outputs
 ## Main Menu
