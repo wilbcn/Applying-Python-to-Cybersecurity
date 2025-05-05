@@ -21,7 +21,7 @@ def main():
     CSV.initialise_csv()
 
     while True:
-        print("\n --- Insert Menu Name ---")
+        print("\n --- Main Menu ---")
         print("1 - Get a file report on a hash value")
         print("2 - Get a file report on a URL")
         print("3 - Quit the programme.")
